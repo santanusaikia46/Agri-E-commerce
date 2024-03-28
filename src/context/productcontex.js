@@ -5,6 +5,7 @@ import reducer from "../reducer/productReducer";
 const AppContext = createContext();
 
 const API = "https://api.pujakaitem.com/api/products";
+// const API = "https://agri-api-production.up.railway.app/api/products";
 
 const initialState = {
   isLoading: false,
